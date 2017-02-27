@@ -1,9 +1,9 @@
 # Site settings
-title: Kleszcz's Dev Blog
+title: Brewing the tee
 header-img: img/home-bg.jpg
 email: jankleszcz@gmail.com
 copyright_name: kleszcz.github.io
-description: "My own little dev blog"
+description: Kleszcz's Dev Blog
 baseurl: "/blog"
 url: "http://kleszcz.github.io"
 twitter_username: JanKleszczynski
