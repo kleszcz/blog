@@ -44,7 +44,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: #2c2c2a;
 }
 .navbar-custom {
   background: white;
@@ -70,20 +70,20 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #2c2c2a;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(44, 44, 42, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #2c2c2a;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(74, 74, 71, 0.8);
   }
 }
 @media only screen and (min-width: 1170px) {
