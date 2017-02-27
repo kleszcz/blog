@@ -44,7 +44,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: #2c2c2a;
+  border-color: white;
 }
 .navbar-custom {
   background: white;
@@ -70,20 +70,20 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: #2c2c2a;
+    color: white;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(44, 44, 42, 0.8);
+    color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: #2c2c2a;
+    color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(74, 74, 71, 0.8);
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -147,7 +147,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: #2c2c2a;
+  color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
