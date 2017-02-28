@@ -6,7 +6,7 @@ author:     "Jan kleszczyński"
 ---
 # Converting strings on Windows
 Text is almost always an important part of a game. To achieve better recognition and reach audience as big as posible we translate
-content to many languages, some of them (including my) have more glyphs than English so we need a way to encode those,
+content to many languages, some of them (including mine) have more glyphs than English so we need a way to encode those,
 and ASCII isn't a good option. But there are many Unicode standards which are widly used and the most common seems to be UTF-8. 
 
 In Windows API uses either Multibyte Character Set (which is not a UTF-8) or UTF-16 to represent localized strings.
