@@ -34,7 +34,7 @@ MultiByteToWideChar(                                      // convert UTF-8 to UT
 MessageBoxW(NULL, (LPCWSTR)w_buff, NULL, 0);              // use it
 free(w_buff);
 ```
-Message in the box should be "utf-8 text ąćęś". Ok so it is alot of work to convert strings, at least enought to create a single
+Message in the box should be "utf-8 text ąćęś". Ok, so it is a lot of work to convert strings, at least enought to create a single
 header lib like one by [Randy Gaul](http://www.randygaul.net/2017/02/23/game-localization-and-utf-8/).
 But there is another way to do it and it's in the C++11 standard!
 
