@@ -62,4 +62,4 @@ std::vector<int> getEvenCountReserve()
 ```
 I was sure that the 3rd option will be the fastest. But after I've run a [benchmark](http://quick-bench.com/xzXteH9AqvAKL9DaskM19gDMSGA) it comes out that having loop twice over the same continuous memory is worse than a allocation/deallocation pair. Of course trivial push back method was the worst.
 
-<img src="img/2019-02-18-benchmark.png" alt="Benchmark chart. PushBack is the slowest, ContReserve is faster but ReserveResize is the fastes." class="inline"/>
+<img src="/blog/img/2019-02-18-benchmark.png" alt="Benchmark chart. PushBack is the slowest, ContReserve is faster but ReserveResize is the fastes." class="inline"/>
