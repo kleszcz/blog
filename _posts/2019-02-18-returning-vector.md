@@ -13,7 +13,7 @@ I've decided to put my core engine parts in a separate library and recently I've
 Let''s assume that we've a 1000 element vector of ints and we want to return copy of all even elements. I've come up with three different schemas:
 
 1. Create new vector, fill it with data, return; possible many allocations
-``` C++
+``` c++
 std::vector<int> getEvenPushBack()
 {
   std::vector<int> r;
@@ -26,7 +26,7 @@ std::vector<int> getEvenPushBack()
 }
 ```
 2. Preallocate new vector for size of the given one, fill with data, resize to fit, return; one big allocation and one deallocation
-``` C++
+``` c++
 std::vector<int> getEvenReserveResize()
 {
   std::vector<int> r(vec.size());
@@ -41,7 +41,7 @@ std::vector<int> getEvenReserveResize()
 }
 ```
 3. Count how many elements will qualify, preallocate for that exact number, fill with data, return; one allocation only but two loops
-``` C++
+``` c++
 std::vector<int> getEvenCountReserve()
 {
   std::size_t s = 0;
