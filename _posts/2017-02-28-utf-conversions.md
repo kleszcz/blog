@@ -2,7 +2,7 @@
 layout:     post
 title:      UTF conversions in C++ 11
 date:       2017-02-28 20:40:00
-author:     "Jan kleszczyński"
+author:     "Jan Kleszczyński"
 ---
 # Converting strings on Windows
 Text is almost always an important part of a game. To achieve better recognition and reach audience as big as posible we translate

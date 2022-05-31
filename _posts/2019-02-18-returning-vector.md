@@ -1,3 +1,9 @@
+---
+layout:     post
+title:      Returning std::vector      
+date:       2019-02-18 20:40:00
+author:     "Jan Kleszczyński"
+---
 # Returning std::vector
 
 ## A pretty long introduction
